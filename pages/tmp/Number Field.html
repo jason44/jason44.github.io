@@ -1,128 +1,42 @@
 <!DOCTYPE html><html><head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            display: flex;
-            backdrop-filter: blur(12px);
-            opacity: 1.0;
-            overflow: clip;
-            width: 100%;
-            padding: 0.15em;
-            background-color: rgba(240, 240, 242, 0.5);
-            justify-content: center;
-            position: fixed;
-        }
-
-        .topnav a {
-            float: left;
-            color: #111;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #f2f2f2;
-            border-radius: 12px;
-        }
-
-        .hamburger {
-            position: absolute;
-            top: 0.75em;
-            left: 1.0em;
-            max-width: 2.0em;
-            padding: 0.2em;
-            display: none;
-        }
-
-        .bar {
-            display: block;
-            width: 25px;
-            height: 3px;
-            margin: 5px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            background-color: #1e1e1e;
-        }
-
-        .header-img {
-            width: 100%;
-            max-width: 100%;
-            height: 40em;
-            margin-top: -100px;
+        .wrapper {
+            width: 60rem;
         }
 
         .article {
-            padding-top: 6%;
-            padding-bottom: 5%;
-            padding-left: 30%;
-            padding-right: 30%;
+            padding-top: 3.0rem;
+            padding-bottom: 3.0rem;
+            margin: 0 auto;
+            width: 54rem;
             font-size: 1.0rem;
             line-break: strict;
             line-height: 1.5;
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        .article h5 {
+            font-size: 20px;
+        }
+
         @media only screen and (max-width: 768px) {
-            .topnav {
-                position: fixed;
-                flex-direction: column;
-                transition: 0.5s;
-            }
-
-            .navbutton {
-                margin-left: 7.0em;
-                margin-right: 7.0em;
-            }
-
-            .topnav.activate {
-                transform: translate(85%, 0);
-                background-color: rgba(20, 20, 20, 0.0);
-                backdrop-filter: none;
-                transition: 0.3s;
-            }
-
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(-45deg);
-            }
-
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(45deg);
-
-            }
-
             .article {
-                padding-top: 2%;
-                padding-bottom: 2%;
-                padding-left: 10%;
-                padding-right: 10%;
+                width: 96%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .topnav {
+                position: absolute;
+            }
+            .hamburger.activate .bar {
+                background-color: #222;
             }
         }
     </style>
     <script>
         window.addEventListener("DOMContentLoaded", (event) => {
-            var nav_buttons = document.getElementsByClassName("navbutton");
-            for (var i = 0; i < nav_buttons.length; i++) {
-                nav_buttons.item(i).addEventListener("click", () => {
-                    console.log("HLESJRJLSEJR");
-                });
-            }
-
             var hamburger = document.querySelector(".hamburger");
             var topnav = document.querySelector(".topnav");
             hamburger.addEventListener("click", () => {
@@ -147,7 +61,9 @@
         <a class="navbutton" href="#contact">Articles</a>
         <a class="navbutton" href="#contact">Source</a>
     </div>
-    <div class="article"><html><head></head><body><p>A set on which addition , subtraction, multiplication and division are defined and behave as the corresponding operations on rational and real numbers do.</p>
+    <div class="wrapper">
+        <div class="centered-text">
+            <div class="article"><h1>Number Field</h1><html><head></head><body><p>A set on which addition , subtraction, multiplication and division are defined and behave as the corresponding operations on rational and real numbers do.</p>
 <h3>Definition</h3>
 <p>A field is a set <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.695ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 749 680" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-1-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span> where two binary operations, <em>addition</em> and <em>subtraction</em> are defined. A binary operation on <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.695ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 749 680" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-2-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-2-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span> is a mapping <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="10.143ex" height="2.034ex" role="img" focusable="false" viewBox="0 -694 4483.1 899" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-3-TEX-I-1D719" d="M409 688Q413 694 421 694H429H442Q448 688 448 686Q448 679 418 563Q411 535 404 504T392 458L388 442Q388 441 397 441T429 435T477 418Q521 397 550 357T579 260T548 151T471 65T374 11T279 -10H275L251 -105Q245 -128 238 -160Q230 -192 227 -198T215 -205H209Q189 -205 189 -198Q189 -193 211 -103L234 -11Q234 -10 226 -10Q221 -10 206 -8T161 6T107 36T62 89T43 171Q43 231 76 284T157 370T254 422T342 441Q347 441 348 445L378 567Q409 686 409 688ZM122 150Q122 116 134 91T167 53T203 35T237 27H244L337 404Q333 404 326 403T297 395T255 379T211 350T170 304Q152 276 137 237Q122 191 122 150ZM500 282Q500 320 484 347T444 385T405 400T381 404H378L332 217L284 29Q284 27 285 27Q293 27 317 33T357 47Q400 66 431 100T475 170T494 234T500 282Z"></path><path id="MJX-3-TEX-N-3A" d="M78 370Q78 394 95 412T138 430Q162 430 180 414T199 371Q199 346 182 328T139 310T96 327T78 370ZM78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path><path id="MJX-3-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path><path id="MJX-3-TEX-N-21A6" d="M95 155V109Q95 83 92 73T75 63Q61 63 58 74T54 130Q54 140 54 180T55 250Q55 421 57 425Q61 437 75 437Q88 437 91 428T95 393V345V270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H95V155Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D719" xlink:href="#MJX-3-TEX-I-1D719"></use></g><g data-mml-node="mo" transform="translate(873.8,0)"><use data-c="3A" xlink:href="#MJX-3-TEX-N-3A"></use></g><g data-mml-node="mi" transform="translate(1429.6,0)"><use data-c="1D439" xlink:href="#MJX-3-TEX-I-1D439"></use></g><g data-mml-node="mo" transform="translate(2456.3,0)"><use data-c="21A6" xlink:href="#MJX-3-TEX-N-21A6"></use></g><g data-mml-node="mi" transform="translate(3734.1,0)"><use data-c="1D439" xlink:href="#MJX-3-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span>.</p>
 <ul>
@@ -295,7 +211,8 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
   stroke-width: 3;
 }
 </style></body></html></div>
-
+        </div>
+    </div>
 
 
 </body></html>

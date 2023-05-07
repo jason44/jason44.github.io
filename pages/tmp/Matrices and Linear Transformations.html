@@ -1,128 +1,42 @@
 <!DOCTYPE html><html><head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            display: flex;
-            backdrop-filter: blur(12px);
-            opacity: 1.0;
-            overflow: clip;
-            width: 100%;
-            padding: 0.15em;
-            background-color: rgba(240, 240, 242, 0.5);
-            justify-content: center;
-            position: fixed;
-        }
-
-        .topnav a {
-            float: left;
-            color: #111;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #f2f2f2;
-            border-radius: 12px;
-        }
-
-        .hamburger {
-            position: absolute;
-            top: 0.75em;
-            left: 1.0em;
-            max-width: 2.0em;
-            padding: 0.2em;
-            display: none;
-        }
-
-        .bar {
-            display: block;
-            width: 25px;
-            height: 3px;
-            margin: 5px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            background-color: #1e1e1e;
-        }
-
-        .header-img {
-            width: 100%;
-            max-width: 100%;
-            height: 40em;
-            margin-top: -100px;
+        .wrapper {
+            width: 60rem;
         }
 
         .article {
-            padding-top: 6%;
-            padding-bottom: 5%;
-            padding-left: 30%;
-            padding-right: 30%;
+            padding-top: 3.0rem;
+            padding-bottom: 3.0rem;
+            margin: 0 auto;
+            width: 54rem;
             font-size: 1.0rem;
             line-break: strict;
             line-height: 1.5;
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        .article h5 {
+            font-size: 20px;
+        }
+
         @media only screen and (max-width: 768px) {
-            .topnav {
-                position: fixed;
-                flex-direction: column;
-                transition: 0.5s;
-            }
-
-            .navbutton {
-                margin-left: 7.0em;
-                margin-right: 7.0em;
-            }
-
-            .topnav.activate {
-                transform: translate(85%, 0);
-                background-color: rgba(20, 20, 20, 0.0);
-                backdrop-filter: none;
-                transition: 0.3s;
-            }
-
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(-45deg);
-            }
-
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(45deg);
-
-            }
-
             .article {
-                padding-top: 2%;
-                padding-bottom: 2%;
-                padding-left: 10%;
-                padding-right: 10%;
+                width: 96%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .topnav {
+                position: absolute;
+            }
+            .hamburger.activate .bar {
+                background-color: #222;
             }
         }
     </style>
     <script>
         window.addEventListener("DOMContentLoaded", (event) => {
-            var nav_buttons = document.getElementsByClassName("navbutton");
-            for (var i = 0; i < nav_buttons.length; i++) {
-                nav_buttons.item(i).addEventListener("click", () => {
-                    console.log("HLESJRJLSEJR");
-                });
-            }
-
             var hamburger = document.querySelector(".hamburger");
             var topnav = document.querySelector(".topnav");
             hamburger.addEventListener("click", () => {
@@ -147,7 +61,9 @@
         <a class="navbutton" href="#contact">Articles</a>
         <a class="navbutton" href="#contact">Source</a>
     </div>
-    <div class="article"><html><head></head><body><p>Note that there are non-linear transformations on [[vector spaces]], but <em>linear algebra</em> is about linear transformations.</p>
+    <div class="wrapper">
+        <div class="centered-text">
+            <div class="article"><h1>Matrices and Linear Transformations</h1><html><head></head><body><p>Note that there are non-linear transformations on [[vector spaces]], but <em>linear algebra</em> is about linear transformations.</p>
 <h3>Linear Transformations</h3>
 <p>[[Linear Maps|Linear transformations]] have the property that all lines stay lines and that parallel lines stay parallel that the origin stays fixed.
 See how this is always the case because for all vectors <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="1.294ex" height="1.025ex" role="img" focusable="false" viewBox="0 -442 572 453" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D462" d="M21 287Q21 295 30 318T55 370T99 420T158 442Q204 442 227 417T250 358Q250 340 216 246T182 105Q182 62 196 45T238 27T291 44T328 78L339 95Q341 99 377 247Q407 367 413 387T427 416Q444 431 463 431Q480 431 488 421T496 402L420 84Q419 79 419 68Q419 43 426 35T447 26Q469 29 482 57T512 145Q514 153 532 153Q551 153 551 144Q550 139 549 130T540 98T523 55T498 17T462 -8Q454 -10 438 -10Q372 -10 347 46Q345 45 336 36T318 21T296 6T267 -6T233 -11Q189 -11 155 7Q103 38 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D462" xlink:href="#MJX-1-TEX-I-1D462"></use></g></g></g></svg></mjx-container></span> multiplied by a matrix <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="2.378ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 1051 683" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-2-TEX-I-1D440" d="M289 629Q289 635 232 637Q208 637 201 638T194 648Q194 649 196 659Q197 662 198 666T199 671T201 676T203 679T207 681T212 683T220 683T232 684Q238 684 262 684T307 683Q386 683 398 683T414 678Q415 674 451 396L487 117L510 154Q534 190 574 254T662 394Q837 673 839 675Q840 676 842 678T846 681L852 683H948Q965 683 988 683T1017 684Q1051 684 1051 673Q1051 668 1048 656T1045 643Q1041 637 1008 637Q968 636 957 634T939 623Q936 618 867 340T797 59Q797 55 798 54T805 50T822 48T855 46H886Q892 37 892 35Q892 19 885 5Q880 0 869 0Q864 0 828 1T736 2Q675 2 644 2T609 1Q592 1 592 11Q592 13 594 25Q598 41 602 43T625 46Q652 46 685 49Q699 52 704 61Q706 65 742 207T813 490T848 631L654 322Q458 10 453 5Q451 4 449 3Q444 0 433 0Q418 0 415 7Q413 11 374 317L335 624L267 354Q200 88 200 79Q206 46 272 46H282Q288 41 289 37T286 19Q282 3 278 1Q274 0 267 0Q265 0 255 0T221 1T157 2Q127 2 95 1T58 0Q43 0 39 2T35 11Q35 13 38 25T43 40Q45 46 65 46Q135 46 154 86Q158 92 223 354T289 629Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D440" xlink:href="#MJX-2-TEX-I-1D440"></use></g></g></g></svg></mjx-container></span>, each part of the resulting vector will be a linear equation.</p>
@@ -297,7 +213,8 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
   stroke-width: 3;
 }
 </style></body></html></div>
-
+        </div>
+    </div>
 
 
 </body></html>

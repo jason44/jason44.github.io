@@ -1,128 +1,42 @@
 <!DOCTYPE html><html><head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            display: flex;
-            backdrop-filter: blur(12px);
-            opacity: 1.0;
-            overflow: clip;
-            width: 100%;
-            padding: 0.15em;
-            background-color: rgba(240, 240, 242, 0.5);
-            justify-content: center;
-            position: fixed;
-        }
-
-        .topnav a {
-            float: left;
-            color: #111;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #f2f2f2;
-            border-radius: 12px;
-        }
-
-        .hamburger {
-            position: absolute;
-            top: 0.75em;
-            left: 1.0em;
-            max-width: 2.0em;
-            padding: 0.2em;
-            display: none;
-        }
-
-        .bar {
-            display: block;
-            width: 25px;
-            height: 3px;
-            margin: 5px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            background-color: #1e1e1e;
-        }
-
-        .header-img {
-            width: 100%;
-            max-width: 100%;
-            height: 40em;
-            margin-top: -100px;
+        .wrapper {
+            width: 60rem;
         }
 
         .article {
-            padding-top: 6%;
-            padding-bottom: 5%;
-            padding-left: 30%;
-            padding-right: 30%;
+            padding-top: 3.0rem;
+            padding-bottom: 3.0rem;
+            margin: 0 auto;
+            width: 54rem;
             font-size: 1.0rem;
             line-break: strict;
             line-height: 1.5;
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        .article h5 {
+            font-size: 20px;
+        }
+
         @media only screen and (max-width: 768px) {
-            .topnav {
-                position: fixed;
-                flex-direction: column;
-                transition: 0.5s;
-            }
-
-            .navbutton {
-                margin-left: 7.0em;
-                margin-right: 7.0em;
-            }
-
-            .topnav.activate {
-                transform: translate(85%, 0);
-                background-color: rgba(20, 20, 20, 0.0);
-                backdrop-filter: none;
-                transition: 0.3s;
-            }
-
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(-45deg);
-            }
-
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(45deg);
-
-            }
-
             .article {
-                padding-top: 2%;
-                padding-bottom: 2%;
-                padding-left: 10%;
-                padding-right: 10%;
+                width: 96%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .topnav {
+                position: absolute;
+            }
+            .hamburger.activate .bar {
+                background-color: #222;
             }
         }
     </style>
     <script>
         window.addEventListener("DOMContentLoaded", (event) => {
-            var nav_buttons = document.getElementsByClassName("navbutton");
-            for (var i = 0; i < nav_buttons.length; i++) {
-                nav_buttons.item(i).addEventListener("click", () => {
-                    console.log("HLESJRJLSEJR");
-                });
-            }
-
             var hamburger = document.querySelector(".hamburger");
             var topnav = document.querySelector(".topnav");
             hamburger.addEventListener("click", () => {
@@ -147,7 +61,9 @@
         <a class="navbutton" href="#contact">Articles</a>
         <a class="navbutton" href="#contact">Source</a>
     </div>
-    <div class="article"><html><head></head><body><p>There are two variations of counting; that is, whether the objects being counted are <strong>distinguishable</strong> or <strong>indistinguishable</strong>. If the objects are distinguishable, then each object carries a label like a unique  number <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="8.032ex" height="1.946ex" role="img" focusable="false" viewBox="0 -666 3550 860" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-1-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-1-TEX-N-2026" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60ZM525 60Q525 84 542 102T585 120Q609 120 627 104T646 61Q646 36 629 18T586 0T543 17T525 60ZM972 60Q972 84 989 102T1032 120Q1056 120 1074 104T1093 61Q1093 36 1076 18T1033 0T990 17T972 60Z"></path><path id="MJX-1-TEX-I-1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-1-TEX-N-31"></use></g><g data-mml-node="mo" transform="translate(500,0)"><use data-c="2C" xlink:href="#MJX-1-TEX-N-2C"></use></g><g data-mml-node="mn" transform="translate(944.7,0)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g><g data-mml-node="mo" transform="translate(1611.3,0)"><use data-c="2026" xlink:href="#MJX-1-TEX-N-2026"></use></g><g data-mml-node="mi" transform="translate(2950,0)"><use data-c="1D45B" xlink:href="#MJX-1-TEX-I-1D45B"></use></g></g></g></svg></mjx-container></span>.</p>
+    <div class="wrapper">
+        <div class="centered-text">
+            <div class="article"><h1>Different Ways of Counting</h1><html><head></head><body><p>There are two variations of counting; that is, whether the objects being counted are <strong>distinguishable</strong> or <strong>indistinguishable</strong>. If the objects are distinguishable, then each object carries a label like a unique  number <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="8.032ex" height="1.946ex" role="img" focusable="false" viewBox="0 -666 3550 860" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path><path id="MJX-1-TEX-N-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path><path id="MJX-1-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path id="MJX-1-TEX-N-2026" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60ZM525 60Q525 84 542 102T585 120Q609 120 627 104T646 61Q646 36 629 18T586 0T543 17T525 60ZM972 60Q972 84 989 102T1032 120Q1056 120 1074 104T1093 61Q1093 36 1076 18T1033 0T990 17T972 60Z"></path><path id="MJX-1-TEX-I-1D45B" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><use data-c="31" xlink:href="#MJX-1-TEX-N-31"></use></g><g data-mml-node="mo" transform="translate(500,0)"><use data-c="2C" xlink:href="#MJX-1-TEX-N-2C"></use></g><g data-mml-node="mn" transform="translate(944.7,0)"><use data-c="32" xlink:href="#MJX-1-TEX-N-32"></use></g><g data-mml-node="mo" transform="translate(1611.3,0)"><use data-c="2026" xlink:href="#MJX-1-TEX-N-2026"></use></g><g data-mml-node="mi" transform="translate(2950,0)"><use data-c="1D45B" xlink:href="#MJX-1-TEX-I-1D45B"></use></g></g></g></svg></mjx-container></span>.</p>
 <p>When we are counting distinguishable objects, we are counting <strong>labelled</strong> things.
 When we are counting indistinguishable objects, we are counting <strong>unlabelled</strong> things.</p>
 <p>![[Pasted image 20230304181148.png]]
@@ -273,7 +189,8 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
   stroke-width: 3;
 }
 </style></body></html></div>
-
+        </div>
+    </div>
 
 
 </body></html>

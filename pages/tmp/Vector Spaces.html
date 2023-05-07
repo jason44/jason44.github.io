@@ -1,128 +1,42 @@
 <!DOCTYPE html><html><head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/global.css">
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            display: flex;
-            backdrop-filter: blur(12px);
-            opacity: 1.0;
-            overflow: clip;
-            width: 100%;
-            padding: 0.15em;
-            background-color: rgba(240, 240, 242, 0.5);
-            justify-content: center;
-            position: fixed;
-        }
-
-        .topnav a {
-            float: left;
-            color: #111;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #f2f2f2;
-            border-radius: 12px;
-        }
-
-        .hamburger {
-            position: absolute;
-            top: 0.75em;
-            left: 1.0em;
-            max-width: 2.0em;
-            padding: 0.2em;
-            display: none;
-        }
-
-        .bar {
-            display: block;
-            width: 25px;
-            height: 3px;
-            margin: 5px auto;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            background-color: #1e1e1e;
-        }
-
-        .header-img {
-            width: 100%;
-            max-width: 100%;
-            height: 40em;
-            margin-top: -100px;
+        .wrapper {
+            width: 60rem;
         }
 
         .article {
-            padding-top: 6%;
-            padding-bottom: 5%;
-            padding-left: 30%;
-            padding-right: 30%;
+            padding-top: 3.0rem;
+            padding-bottom: 3.0rem;
+            margin: 0 auto;
+            width: 54rem;
             font-size: 1.0rem;
             line-break: strict;
             line-height: 1.5;
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        .article h5 {
+            font-size: 20px;
+        }
+
         @media only screen and (max-width: 768px) {
-            .topnav {
-                position: fixed;
-                flex-direction: column;
-                transition: 0.5s;
-            }
-
-            .navbutton {
-                margin-left: 7.0em;
-                margin-right: 7.0em;
-            }
-
-            .topnav.activate {
-                transform: translate(85%, 0);
-                background-color: rgba(20, 20, 20, 0.0);
-                backdrop-filter: none;
-                transition: 0.3s;
-            }
-
-            .hamburger {
-                display: block;
-                cursor: pointer;
-            }
-
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(-45deg);
-            }
-
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(45deg);
-
-            }
-
             .article {
-                padding-top: 2%;
-                padding-bottom: 2%;
-                padding-left: 10%;
-                padding-right: 10%;
+                width: 96%;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .topnav {
+                position: absolute;
+            }
+            .hamburger.activate .bar {
+                background-color: #222;
             }
         }
     </style>
     <script>
         window.addEventListener("DOMContentLoaded", (event) => {
-            var nav_buttons = document.getElementsByClassName("navbutton");
-            for (var i = 0; i < nav_buttons.length; i++) {
-                nav_buttons.item(i).addEventListener("click", () => {
-                    console.log("HLESJRJLSEJR");
-                });
-            }
-
             var hamburger = document.querySelector(".hamburger");
             var topnav = document.querySelector(".topnav");
             hamburger.addEventListener("click", () => {
@@ -147,7 +61,9 @@
         <a class="navbutton" href="#contact">Articles</a>
         <a class="navbutton" href="#contact">Source</a>
     </div>
-    <div class="article"><html><head></head><body><p>A vector space over a field <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.695ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 749 680" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-1-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span> is a non-empty set <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="1.74ex" height="1.595ex" role="img" focusable="false" viewBox="0 -683 769 705" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-2-TEX-I-1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D449" xlink:href="#MJX-2-TEX-I-1D449"></use></g></g></g></svg></mjx-container></span> with binary operations that satisfy the [[Number Field|field axioms]]. The elements of <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.695ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 749 680" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-3-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-3-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span> are called scalars. (<span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.633ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 722 683" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-4-TEX-D-211D" d="M17 665Q17 672 28 683H221Q415 681 439 677Q461 673 481 667T516 654T544 639T566 623T584 607T597 592T607 578T614 565T618 554L621 548Q626 530 626 497Q626 447 613 419Q578 348 473 326L455 321Q462 310 473 292T517 226T578 141T637 72T686 35Q705 30 705 16Q705 7 693 -1H510Q503 6 404 159L306 310H268V183Q270 67 271 59Q274 42 291 38Q295 37 319 35Q344 35 353 28Q362 17 353 3L346 -1H28Q16 5 16 16Q16 35 55 35Q96 38 101 52Q106 60 106 341T101 632Q95 645 55 648Q17 648 17 665ZM241 35Q238 42 237 45T235 78T233 163T233 337V621L237 635L244 648H133Q136 641 137 638T139 603T141 517T141 341Q141 131 140 89T134 37Q133 36 133 35H241ZM457 496Q457 540 449 570T425 615T400 634T377 643Q374 643 339 648Q300 648 281 635Q271 628 270 610T268 481V346H284Q327 346 375 352Q421 364 439 392T457 496ZM492 537T492 496T488 427T478 389T469 371T464 361Q464 360 465 360Q469 360 497 370Q593 400 593 495Q593 592 477 630L457 637L461 626Q474 611 488 561Q492 537 492 496ZM464 243Q411 317 410 317Q404 317 401 315Q384 315 370 312H346L526 35H619L606 50Q553 109 464 243Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><use data-c="211D" xlink:href="#MJX-4-TEX-D-211D"></use></g></g></g></g></svg></mjx-container></span> and <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.043ex;" xmlns="http://www.w3.org/2000/svg" width="1.633ex" height="1.631ex" role="img" focusable="false" viewBox="0 -702 722 721" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-5-TEX-D-2102" d="M684 131Q684 125 672 109T633 71T573 29T489 -5T386 -19Q330 -19 276 -3T174 46T91 134T44 261Q39 283 39 341T44 421Q66 538 143 611T341 699Q344 699 364 700T395 701Q449 698 503 677T585 655Q603 655 611 662T620 678T625 694T639 702Q650 702 657 690V481L653 474Q640 467 628 472Q624 476 618 496T595 541Q562 587 507 625T390 663H381Q337 663 299 625Q212 547 212 336Q212 249 233 179Q274 30 405 30Q533 30 641 130Q658 147 666 147Q671 147 677 143T684 131ZM250 625Q264 643 261 643Q238 635 214 620T161 579T110 510T79 414Q74 384 74 341T79 268Q89 213 113 169T164 101T217 61T260 39L277 34Q270 41 264 48Q199 111 181 254Q178 281 178 344T181 434Q200 559 250 625ZM621 565V625Q617 623 613 623Q603 619 590 619H575L588 605Q608 583 610 579L621 565Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><use data-c="2102" xlink:href="#MJX-5-TEX-D-2102"></use></g></g></g></g></svg></mjx-container></span> are examples of fields).</p>
+    <div class="wrapper">
+        <div class="centered-text">
+            <div class="article"><h1>Vector Spaces</h1><html><head></head><body><p>A vector space over a field <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.695ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 749 680" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-1-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-1-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span> is a non-empty set <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.05ex;" xmlns="http://www.w3.org/2000/svg" width="1.74ex" height="1.595ex" role="img" focusable="false" viewBox="0 -683 769 705" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-2-TEX-I-1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D449" xlink:href="#MJX-2-TEX-I-1D449"></use></g></g></g></svg></mjx-container></span> with binary operations that satisfy the [[Number Field|field axioms]]. The elements of <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.695ex" height="1.538ex" role="img" focusable="false" viewBox="0 -680 749 680" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-3-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><use data-c="1D439" xlink:href="#MJX-3-TEX-I-1D439"></use></g></g></g></svg></mjx-container></span> are called scalars. (<span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: 0;" xmlns="http://www.w3.org/2000/svg" width="1.633ex" height="1.545ex" role="img" focusable="false" viewBox="0 -683 722 683" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-4-TEX-D-211D" d="M17 665Q17 672 28 683H221Q415 681 439 677Q461 673 481 667T516 654T544 639T566 623T584 607T597 592T607 578T614 565T618 554L621 548Q626 530 626 497Q626 447 613 419Q578 348 473 326L455 321Q462 310 473 292T517 226T578 141T637 72T686 35Q705 30 705 16Q705 7 693 -1H510Q503 6 404 159L306 310H268V183Q270 67 271 59Q274 42 291 38Q295 37 319 35Q344 35 353 28Q362 17 353 3L346 -1H28Q16 5 16 16Q16 35 55 35Q96 38 101 52Q106 60 106 341T101 632Q95 645 55 648Q17 648 17 665ZM241 35Q238 42 237 45T235 78T233 163T233 337V621L237 635L244 648H133Q136 641 137 638T139 603T141 517T141 341Q141 131 140 89T134 37Q133 36 133 35H241ZM457 496Q457 540 449 570T425 615T400 634T377 643Q374 643 339 648Q300 648 281 635Q271 628 270 610T268 481V346H284Q327 346 375 352Q421 364 439 392T457 496ZM492 537T492 496T488 427T478 389T469 371T464 361Q464 360 465 360Q469 360 497 370Q593 400 593 495Q593 592 477 630L457 637L461 626Q474 611 488 561Q492 537 492 496ZM464 243Q411 317 410 317Q404 317 401 315Q384 315 370 312H346L526 35H619L606 50Q553 109 464 243Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><use data-c="211D" xlink:href="#MJX-4-TEX-D-211D"></use></g></g></g></g></svg></mjx-container></span> and <span class="math math-inline"><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.043ex;" xmlns="http://www.w3.org/2000/svg" width="1.633ex" height="1.631ex" role="img" focusable="false" viewBox="0 -702 722 721" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="MJX-5-TEX-D-2102" d="M684 131Q684 125 672 109T633 71T573 29T489 -5T386 -19Q330 -19 276 -3T174 46T91 134T44 261Q39 283 39 341T44 421Q66 538 143 611T341 699Q344 699 364 700T395 701Q449 698 503 677T585 655Q603 655 611 662T620 678T625 694T639 702Q650 702 657 690V481L653 474Q640 467 628 472Q624 476 618 496T595 541Q562 587 507 625T390 663H381Q337 663 299 625Q212 547 212 336Q212 249 233 179Q274 30 405 30Q533 30 641 130Q658 147 666 147Q671 147 677 143T684 131ZM250 625Q264 643 261 643Q238 635 214 620T161 579T110 510T79 414Q74 384 74 341T79 268Q89 213 113 169T164 101T217 61T260 39L277 34Q270 41 264 48Q199 111 181 254Q178 281 178 344T181 434Q200 559 250 625ZM621 565V625Q617 623 613 623Q603 619 590 619H575L588 605Q608 583 610 579L621 565Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="TeXAtom" data-mjx-texclass="ORD"><g data-mml-node="mi"><use data-c="2102" xlink:href="#MJX-5-TEX-D-2102"></use></g></g></g></g></svg></mjx-container></span> are examples of fields).</p>
 <ul>
 <li>The first operation is called vector addition</li>
 <li>The second operation is scalar multiplication</li>
@@ -304,7 +220,8 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
   stroke-width: 3;
 }
 </style></body></html></div>
-
+        </div>
+    </div>
 
 
 </body></html>

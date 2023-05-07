@@ -58,20 +58,20 @@ function insert_to_template(html_data, file) {
 
     dom.window.document.addEventListener("DOMContentLoaded", (event) => {
         const child = new JSDOM(html_data);
+        const title = file.replace('.md', '');
         child.window.document.addEventListener("DOMContentLoaded", (event) => {
-            //const child_p = child.window.document.querySelectorAll('p');
             const child_elements = child.window.document.children;
-            //const child_style = child.window.document.querySelector('style');
-            //const head = dom.window.document.querySelector('head');
             const article = dom.window.document.querySelector('.article');
-
-            //head.appendChild(child_style);
+            var heading = dom.window.document.createElement('h1');
+            heading.innerHTML = title;
+            console.log(title);
+            article.appendChild(heading)
             for (var i = 0; i < child_elements.length; i++) {
                 article.appendChild(child_elements.item(i));
             }
 
             const output = dom.serialize();
-            fs.writeFileSync(save_path_temp + file.replace('.md', '.html'), output, (err) => {
+            fs.writeFileSync(save_path_temp + title + '.html', output, (err) => {
                 if (err) throw err;
             });
         });

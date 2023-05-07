@@ -1,0 +1,62 @@
+
+        @media only screen and (min-width: 2160px) {
+            body {
+                font-size: 1.5rem;
+            }
+            .header-img {
+                width: 68vw;
+            }
+
+            .dual-img {
+                width: 34vw;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+            }
+
+            .block {
+                display: block;
+                padding: 0.3em;
+                margin: 0 auto;
+                background-color: rgb(245, 245, 245);
+                border-radius: 12px;
+                width: 68vw;
+                text-align: center;
+            }
+
+            .dual-block {
+                display: block;
+                background-color: rgb(245, 245, 245);
+                border-radius: 12px;
+                width: 34vw;
+                text-align: center;
+            }
+        }
+
+        @media only screen and (max-width: 2560px) {
+            .header-img {
+                width: 72rem;
+            }
+            .dual-img {
+                width: 36rem;
+            }
+            .block {
+                width: 72rem;
+            }
+            .dual-block {
+                width: 36rem;
+            }
+        }
+
+        @media only screen and (max-width: 1920px) {
+            .header-img {
+                width: 54rem;
+            }
+            .dual-img {
+                width: 27rem;
+            }
+            .block {
+                width: 54rem;
+            }
+            .dual-block {
+                width: 27rem;
+            }
+        }

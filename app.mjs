@@ -15,13 +15,12 @@ const PORT = process.env.PORT || 8080;
 // '/' in this file also refers to 'src/'
 //app.use('/src', express.static( __dirname));
 app.use(express.static( __dirname));
+app.use('/public', express.static( 'public'));
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-/*
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
-*/
