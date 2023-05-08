@@ -15,7 +15,10 @@ const PORT = process.env.PORT || 8080;
 // '/' in this file also refers to 'src/'
 //app.use('/src', express.static( __dirname));
 app.use(express.static( __dirname));
-app.use('/public', express.static( 'public'));
+//app.use('/pages', express.static(__dirname + '/pages'));
+//app.use('/assets', express.static(__dirname + '/assets'));
+//app.use(express.static(__dirname + '/pages'));
+//app.use(express.static(__dirname + '/assets'));
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');

@@ -15,27 +15,17 @@
                 topnav.classList.toggle("activate");
             });
             var articles_list = document.getElementById("articles_list")
-            fetch('/pages/tmp/')
-                .then(response => response.text())
-                .then(data => {
-                    const parser = new DOMParser();
-                    const htmlDoc = parser.parseFromString(data, 'text/html');
-                    var links = htmlDoc.querySelectorAll('a');
-                    //const formatted = Array.from(links).map(link => link.innerText.replace('.html', ''));
-                    //const children = Array.from(links).map(link => link.href);
-                    var swap = 0;
-                    for (var i = 0; i < links.length; i++) {
-                        links[i].href = '/pages/tmp/' + links[i].innerText;
-                        links[i].innerText = links[i].innerText.replace('.html', '');
-                        articles_list.appendChild(links[i]);
-                        const br = document.createElement('br');
-                        swap++;
-                        if (swap === 3) {
-                            articles_list.appendChild(br);
-                            swap = 0;
-                        }
-                    }
-                });
+            fetch('articles.json')
+            .then(response => response.json())
+            .then(data => {
+                //console.log(data);
+                for (var i = 0; i < data.length; i++) {
+                    const link = document.createElement('a');
+                    link.href = data[i].path;
+                    link.textContent = data[i].name;
+                    articles_list.appendChild(link);
+                }
+            });
         });
     </script>
 </head>
