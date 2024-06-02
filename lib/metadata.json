@@ -1,0 +1,2122 @@
+{
+  "vaultName": "Mathematics",
+  "lastExport": 1717356845968,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Analysis/Axiom of Completeness.md",
+    "Analysis/Continuity.md",
+    "Analysis/Functions.md",
+    "Analysis/Limit.md",
+    "Analysis/modulo n.md",
+    "Analysis/Relations.md",
+    "Analysis/Spaces.md",
+    "Analysis/Triangle Inequality.md",
+    "Calculus/Curl and Divergence.md",
+    "Calculus/Gauss' Theorem.md",
+    "Calculus/Green's Theorem.md",
+    "Calculus/Integration methods.md",
+    "Calculus/Jacobian.md",
+    "Calculus/Laplacian.md",
+    "Calculus/Line Integral.md",
+    "Calculus/Multivariable Integration.md",
+    "Calculus/Multivariable Notation.md",
+    "Calculus/Parameterizing Surfaces.md",
+    "Calculus/Properties of Integrals.md",
+    "Calculus/Stokes' Theorem.md",
+    "Calculus/Surface Integrals.md",
+    "Calculus/Total Derivative.md",
+    "Calculus/Vector Calculus Summary.md",
+    "Chemistry/Fundamentals of Chemistry.md",
+    "Combinatorics/Directed graphs.md",
+    "Combinatorics/Edge Counting.md",
+    "Combinatorics/Graph Coloring.md",
+    "Combinatorics/Graph Problems.md",
+    "Combinatorics/Graphs.md",
+    "Combinatorics/Isomorphism.md",
+    "Combinatorics/Orders of Magnitude.md",
+    "Combinatorics/Planar Graphs.md",
+    "Combinatorics/Types of Graphs.md",
+    "Combinatorics_/_extra_ Counting intervals.md",
+    "Combinatorics_/Binomial Theorem.md",
+    "Combinatorics_/Cycles in Permutations.md",
+    "Combinatorics_/Cycles In Permutations - Problems.md",
+    "Combinatorics_/Growth of Functions.md",
+    "Combinatorics_/Inclusion-Exclusion - Counting Intersecting Sets.md",
+    "Combinatorics_/Multinomial Theorem.md",
+    "Combinatorics_/Partitions.md",
+    "Combinatorics_/Permutations.md",
+    "Combinatorics_/Pigeonhole Principle.md",
+    "Convolutions/Image Processing/Edge Detection.md",
+    "Convolutions/Image Processing/Gaussian Filter.md",
+    "Convolutions/Image Processing/Linear Filtering.md",
+    "Convolutions/Convolution.md",
+    "Convolutions/Discrete Convolution.md",
+    "Convolutions/Properties of Convolutions.md",
+    "Data Structures/Binary Tree.md",
+    "Differential Equations/Applications of first order equations.md",
+    "Differential Equations/Basic Differential Equation Models.md",
+    "Differential Equations/Boundary Value Problems.md",
+    "Differential Equations/Cauchy-Euler Equation.md",
+    "Differential Equations/Constant Coefficient Second Order Equations.md",
+    "Differential Equations/Higher Order Equations.md",
+    "Differential Equations/Laplace Transform.md",
+    "Differential Equations/Linear and Separable First Order Equations.md",
+    "Differential Equations/Series.md",
+    "Differential Equations/Variable Coefficient Second Order Equations.md",
+    "Differential Equations/Vertical Mass-Spring Systems.md",
+    "Differential Equations/Wronskian and Fundamental Solution Sets.md",
+    "Fourier Analysis/Fourier Series.md",
+    "Fourier Analysis/Fourier Transform.md",
+    "Fourier Analysis/Periodicity.md",
+    "homework/arithmetic_subroutines.rs",
+    "homework/det.cc",
+    "homework/dif.py",
+    "images/34682f0ac52a66cdc5b1789a5ef35506c1ef0458.svg",
+    "images/convolutionbox.gif",
+    "images/convolutioncurve.gif",
+    "images/curl.png",
+    "images/Heatequation_exampleB.gif",
+    "images/lineintegral.png",
+    "images/Pasted image 20230304192441.png",
+    "images/Pasted image 20230304192617.png",
+    "images/Pasted image 20230304192706.png",
+    "images/Pasted image 20230304192930.png",
+    "images/Pasted image 20230304193026.png",
+    "images/Pasted image 20230305184701.png",
+    "images/Pasted image 20230305184737.png",
+    "images/Pasted image 20230305195243.png",
+    "images/Pasted image 20230307223103.png",
+    "images/Pasted image 20230313170513.png",
+    "images/Pasted image 20230320185428.png",
+    "images/Pasted image 20230324232826.png",
+    "images/Pasted image 20230420103807.png",
+    "images/Pasted image 20230420104827.png",
+    "images/Pasted image 20230420114715.png",
+    "images/Pasted image 20230420121204.png",
+    "images/Pasted image 20230423105941.png",
+    "images/Pasted image 20230423121322.png",
+    "images/Pasted image 20230423150641.png",
+    "images/Pasted image 20230423174833.png",
+    "images/Pasted image 20230426182243.png",
+    "images/Pasted image 20230427193633.png",
+    "images/Pasted image 20230515161153.png",
+    "images/Pasted image 20230516154011.png",
+    "images/Pasted image 20230516154340.png",
+    "images/Pasted image 20230519143945.png",
+    "images/Pasted image 20230520141342.png",
+    "images/Pasted image 20230520154939.png",
+    "images/Pasted image 20230520155017.png",
+    "images/Pasted image 20230520155046.png",
+    "images/Pasted image 20230520190733.png",
+    "images/Pasted image 20230520202228.png",
+    "images/Pasted image 20230521110613.png",
+    "images/Pasted image 20230521145856.png",
+    "images/Pasted image 20230531100819.png",
+    "images/Pasted image 20230531101021.png",
+    "images/Pasted image 20230707121937.png",
+    "images/Pasted image 20230721160601.png",
+    "images/Pasted image 20230721160611.png",
+    "images/Pasted image 20230722184748.png",
+    "images/Pasted image 20230722185127.png",
+    "images/Pasted image 20230723105943.png",
+    "images/Pasted image 20230723152451.png",
+    "images/Pasted image 20230723152507.png",
+    "images/Pasted image 20230727171643.png",
+    "images/Pasted image 20230727200327.png",
+    "images/Pasted image 20230727201113.png",
+    "images/Pasted image 20230727212132.png",
+    "images/Pasted image 20230727212151.png",
+    "images/Pasted image 20230731222314.png",
+    "images/Pasted image 20230804164103.png",
+    "images/Pasted image 20230805225433.png",
+    "images/Pasted image 20230827193135.png",
+    "images/Pasted image 20230919143150.png",
+    "images/Pasted image 20231008193533.png",
+    "images/Pasted image 20231026164606.png",
+    "images/Pasted image 20231029201353.png",
+    "images/Pasted image 20231103210917.png",
+    "images/Pasted image 20231122164111.png",
+    "images/Pasted image 20231125124150.png",
+    "images/Pasted image 20231228154221.png",
+    "images/Pasted image 20240118162309.png",
+    "images/Pasted image 20240118165813.png",
+    "images/Pasted image 20240205195102.png",
+    "images/Pasted image 20240205200346.png",
+    "images/Pasted image 20240205215013.png",
+    "images/Pasted image 20240206113233.png",
+    "images/Pasted image 20240207141724.png",
+    "images/Pasted image 20240217142151.png",
+    "images/Pasted image 20240308155127.png",
+    "images/Pasted image 20240308170145.png",
+    "images/Pasted image 20240311154617.png",
+    "images/Pasted image 20240311155135.png",
+    "images/Pasted image 20240315105116.png",
+    "images/Pasted image 20240316160744.png",
+    "images/Pasted image 20240316184751.png",
+    "images/Pasted image 20240318191049.png",
+    "images/Pasted image 20240323173022.png",
+    "images/Pasted image 20240327110037.png",
+    "images/Pasted image 20240330211215.png",
+    "images/Pasted image 20240401223457.png",
+    "images/Pasted image 20240402140910.png",
+    "images/Pasted image 20240406225144.png",
+    "images/Pasted image 20240407175908.png",
+    "images/Pasted image 20240416141948.png",
+    "images/Pasted image 20240420141222.png",
+    "images/Pasted image 20240424095952.png",
+    "images/Pasted image 20240426172703.png",
+    "images/Pasted image 20240428170315.png",
+    "images/Pasted image 20240430103353.png",
+    "images/Pasted image 20240508102706.png",
+    "images/Pasted image 20240508113720.png",
+    "images/Pasted image 20240511150001.png",
+    "images/Pasted image 20240514151002.png",
+    "images/Pasted image 20240514152928.png",
+    "images/Pasted image 20240514194025.png",
+    "images/Pasted image 20240515180315.png",
+    "images/Pasted image 20240515181240.png",
+    "images/Pasted image 20240516121451.png",
+    "images/Pasted image 20240516164646.png",
+    "images/Pasted image 20240522200946.png",
+    "images/Pasted image 20240530191711.png",
+    "images/Pasted image 20240531160105.png",
+    "images/Pasted image 20240531162308.png",
+    "images/Pasted image 20240531165309.png",
+    "images/Pasted image 20240531175110.png",
+    "images/svgphp-unit-step-functions-definition-1a-s0.svg",
+    "images/tetrahedronthing.png",
+    "images/vf1.png",
+    "images/vf2.png",
+    "Linear Algebra/Basis and Linear Combinations.md",
+    "Linear Algebra/Change of basis.md",
+    "Linear Algebra/Cofactors and Minors.md",
+    "Linear Algebra/Common Matrix Transformations.md",
+    "Linear Algebra/Cramer's Rule.md",
+    "Linear Algebra/Cross Product.md",
+    "Linear Algebra/Determinant.md",
+    "Linear Algebra/Diagonalization.md",
+    "Linear Algebra/Dot Product.md",
+    "Linear Algebra/Eigenvalues and Eigenvectors.md",
+    "Linear Algebra/Elementary Operations.md",
+    "Linear Algebra/Gaussian Elimination.md",
+    "Linear Algebra/Geometric Properties of Vectors.md",
+    "Linear Algebra/Gram-Schmidt Process.md",
+    "Linear Algebra/Inner Product.md",
+    "Linear Algebra/Inverse Matrices.md",
+    "Linear Algebra/Jordan Matrix.md",
+    "Linear Algebra/Linear Independence.md",
+    "Linear Algebra/Linear Maps.md",
+    "Linear Algebra/Linear Maps Between Dimensions.md",
+    "Linear Algebra/Linear Operator.md",
+    "Linear Algebra/Linear Systems of Equations.md",
+    "Linear Algebra/Matrices.md",
+    "Linear Algebra/More Classifications for Matrices.md",
+    "Linear Algebra/Number Field.md",
+    "Linear Algebra/Rank and Nullity.md",
+    "Linear Algebra/Row echelon form.md",
+    "Linear Algebra/Row, Column, Null Space.md",
+    "Linear Algebra/Sarrus' Rule.md",
+    "Linear Algebra/System of Differential Equations.md",
+    "Linear Algebra/Trace.md",
+    "Linear Algebra/Vector Spaces.md",
+    "Physics/Air Resistance.md",
+    "Physics/Center of Mass and Angular Momentum.md",
+    "Physics/Central Forces.md",
+    "Physics/Chapter 1 Problem Set.md",
+    "Physics/Chapter 2 Problem Set.md",
+    "Physics/Chapter 3 Problem Set.md",
+    "Physics/Charged Particles in a Uniform Magnetic Field.md",
+    "Physics/Energy for Curvilinear One-Dimensional Systems.md",
+    "Physics/Energy for Linear One-Dimensional Systems.md",
+    "Physics/Energy in Multiparticle Systems.md",
+    "Physics/Example - Rockets.md",
+    "Physics/Friction.md",
+    "Physics/Kinetic Energy and Work.md",
+    "Physics/Newton's Laws of Motion.md",
+    "Physics/Polar Coordinates.md",
+    "Physics/Potential Energy and Conservation Forces.md",
+    "Physics/Watts, Volts, Amps.md",
+    "Probability/Basic Measure Theory.md",
+    "Probability/Basic Probability.md",
+    "Probability/Conditional Probability.md",
+    "Probability/Deceptive Statistics.md",
+    "Probability/Dices.md",
+    "Probability/Random Variables.md",
+    "Problem Solving/Analogy.md",
+    "Problem Solving/Auxiliary Element.md",
+    "Statistics/Prediction - Linear Models.md",
+    "AN3461.pdf",
+    "Basic Geometry.md",
+    "Cross Product.pdf",
+    "Euler's Formula.md",
+    "Induction.md",
+    "Irrationality of the square root of 2.md",
+    "Multiplication by 0.md",
+    "Orientation.md",
+    "Parallelogram and Parallelepipeds.md",
+    "Partial fraction decomposition.md",
+    "Polar Representation of Complex Numbers.md",
+    "Rational Roots Theorem and Synthetic Division.md",
+    "Sets.md",
+    "temp.md",
+    "Tetrahedron Volume.md",
+    "Trigonometric Identities.md",
+    "Types of regions.md",
+    "Vector field.md",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/MathJax_Zero.woff",
+    "lib/fonts/MathJax_Main-Regular.woff",
+    "lib/fonts/MathJax_Main-Bold.woff",
+    "lib/fonts/MathJax_Math-Italic.woff",
+    "lib/fonts/MathJax_Main-Italic.woff",
+    "lib/fonts/MathJax_Math-BoldItalic.woff",
+    "lib/fonts/MathJax_Size1-Regular.woff",
+    "lib/fonts/MathJax_Size2-Regular.woff",
+    "lib/fonts/MathJax_Size3-Regular.woff",
+    "lib/fonts/MathJax_Size4-Regular.woff",
+    "lib/fonts/MathJax_AMS-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Bold.woff",
+    "lib/fonts/MathJax_Fraktur-Regular.woff",
+    "lib/fonts/MathJax_Fraktur-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Regular.woff",
+    "lib/fonts/MathJax_SansSerif-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Italic.woff",
+    "lib/fonts/MathJax_Script-Regular.woff",
+    "lib/fonts/MathJax_Typewriter-Regular.woff",
+    "lib/fonts/MathJax_Vector-Regular.woff",
+    "lib/fonts/MathJax_Vector-Bold.woff"
+  ],
+  "mainDependencies": [
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/fonts/MathJax_Zero.woff",
+    "lib/fonts/MathJax_Main-Regular.woff",
+    "lib/fonts/MathJax_Main-Bold.woff",
+    "lib/fonts/MathJax_Math-Italic.woff",
+    "lib/fonts/MathJax_Main-Italic.woff",
+    "lib/fonts/MathJax_Math-BoldItalic.woff",
+    "lib/fonts/MathJax_Size1-Regular.woff",
+    "lib/fonts/MathJax_Size2-Regular.woff",
+    "lib/fonts/MathJax_Size3-Regular.woff",
+    "lib/fonts/MathJax_Size4-Regular.woff",
+    "lib/fonts/MathJax_AMS-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Regular.woff",
+    "lib/fonts/MathJax_Calligraphic-Bold.woff",
+    "lib/fonts/MathJax_Fraktur-Regular.woff",
+    "lib/fonts/MathJax_Fraktur-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Regular.woff",
+    "lib/fonts/MathJax_SansSerif-Bold.woff",
+    "lib/fonts/MathJax_SansSerif-Italic.woff",
+    "lib/fonts/MathJax_Script-Regular.woff",
+    "lib/fonts/MathJax_Typewriter-Regular.woff",
+    "lib/fonts/MathJax_Vector-Regular.woff",
+    "lib/fonts/MathJax_Vector-Bold.woff"
+  ],
+  "fileInfo": {
+    "Analysis/Axiom of Completeness.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5707,
+      "exportedPath": "Analysis/Axiom of Completeness.html",
+      "dependencies": []
+    },
+    "Analysis/Continuity.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2801,
+      "exportedPath": "Analysis/Continuity.html",
+      "dependencies": []
+    },
+    "Analysis/Functions.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2673,
+      "exportedPath": "Analysis/Functions.html",
+      "dependencies": []
+    },
+    "Analysis/Limit.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 624,
+      "exportedPath": "Analysis/Limit.html",
+      "dependencies": []
+    },
+    "Analysis/modulo n.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 687,
+      "exportedPath": "Analysis/modulo n.html",
+      "dependencies": []
+    },
+    "Analysis/Relations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1974,
+      "exportedPath": "Analysis/Relations.html",
+      "dependencies": []
+    },
+    "Analysis/Spaces.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1273,
+      "exportedPath": "Analysis/Spaces.html",
+      "dependencies": []
+    },
+    "Analysis/Triangle Inequality.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1009,
+      "exportedPath": "Analysis/Triangle Inequality.html",
+      "dependencies": []
+    },
+    "Calculus/Curl and Divergence.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9923,
+      "exportedPath": "Calculus/Curl and Divergence.html",
+      "dependencies": []
+    },
+    "Calculus/Gauss' Theorem.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1635,
+      "exportedPath": "Calculus/Gauss' Theorem.html",
+      "dependencies": []
+    },
+    "Calculus/Green's Theorem.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2875,
+      "exportedPath": "Calculus/Green's Theorem.html",
+      "dependencies": []
+    },
+    "Calculus/Integration methods.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1052,
+      "exportedPath": "Calculus/Integration methods.html",
+      "dependencies": []
+    },
+    "Calculus/Jacobian.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3522,
+      "exportedPath": "Calculus/Jacobian.html",
+      "dependencies": []
+    },
+    "Calculus/Laplacian.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2055,
+      "exportedPath": "Calculus/Laplacian.html",
+      "dependencies": []
+    },
+    "Calculus/Line Integral.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5280,
+      "exportedPath": "Calculus/Line Integral.html",
+      "dependencies": []
+    },
+    "Calculus/Multivariable Integration.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5270,
+      "exportedPath": "Calculus/Multivariable Integration.html",
+      "dependencies": []
+    },
+    "Calculus/Multivariable Notation.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 453,
+      "exportedPath": "Calculus/Multivariable Notation.html",
+      "dependencies": []
+    },
+    "Calculus/Parameterizing Surfaces.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1773,
+      "exportedPath": "Calculus/Parameterizing Surfaces.html",
+      "dependencies": []
+    },
+    "Calculus/Properties of Integrals.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1955,
+      "exportedPath": "Calculus/Properties of Integrals.html",
+      "dependencies": []
+    },
+    "Calculus/Stokes' Theorem.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5069,
+      "exportedPath": "Calculus/Stokes' Theorem.html",
+      "dependencies": []
+    },
+    "Calculus/Surface Integrals.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5817,
+      "exportedPath": "Calculus/Surface Integrals.html",
+      "dependencies": []
+    },
+    "Calculus/Total Derivative.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2882,
+      "exportedPath": "Calculus/Total Derivative.html",
+      "dependencies": []
+    },
+    "Calculus/Vector Calculus Summary.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1289,
+      "exportedPath": "Calculus/Vector Calculus Summary.html",
+      "dependencies": []
+    },
+    "Chemistry/Fundamentals of Chemistry.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4019,
+      "exportedPath": "Chemistry/Fundamentals of Chemistry.html",
+      "dependencies": []
+    },
+    "Combinatorics/Directed graphs.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 647,
+      "exportedPath": "Combinatorics/Directed graphs.html",
+      "dependencies": []
+    },
+    "Combinatorics/Edge Counting.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1022,
+      "exportedPath": "Combinatorics/Edge Counting.html",
+      "dependencies": []
+    },
+    "Combinatorics/Graph Coloring.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 843,
+      "exportedPath": "Combinatorics/Graph Coloring.html",
+      "dependencies": []
+    },
+    "Combinatorics/Graph Problems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4264,
+      "exportedPath": "Combinatorics/Graph Problems.html",
+      "dependencies": []
+    },
+    "Combinatorics/Graphs.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8994,
+      "exportedPath": "Combinatorics/Graphs.html",
+      "dependencies": []
+    },
+    "Combinatorics/Isomorphism.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3192,
+      "exportedPath": "Combinatorics/Isomorphism.html",
+      "dependencies": []
+    },
+    "Combinatorics/Orders of Magnitude.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1852,
+      "exportedPath": "Combinatorics/Orders of Magnitude.html",
+      "dependencies": []
+    },
+    "Combinatorics/Planar Graphs.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4055,
+      "exportedPath": "Combinatorics/Planar Graphs.html",
+      "dependencies": []
+    },
+    "Combinatorics/Types of Graphs.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 954,
+      "exportedPath": "Combinatorics/Types of Graphs.html",
+      "dependencies": []
+    },
+    "Combinatorics_/_extra_ Counting intervals.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1347,
+      "exportedPath": "Combinatorics_/_extra_ Counting intervals.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Binomial Theorem.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 19697,
+      "exportedPath": "Combinatorics_/Binomial Theorem.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Cycles in Permutations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 17835,
+      "exportedPath": "Combinatorics_/Cycles in Permutations.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Cycles In Permutations - Problems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6799,
+      "exportedPath": "Combinatorics_/Cycles In Permutations - Problems.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Growth of Functions.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7588,
+      "exportedPath": "Combinatorics_/Growth of Functions.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Inclusion-Exclusion - Counting Intersecting Sets.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8997,
+      "exportedPath": "Combinatorics_/Inclusion-Exclusion - Counting Intersecting Sets.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Multinomial Theorem.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4779,
+      "exportedPath": "Combinatorics_/Multinomial Theorem.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Partitions.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 15309,
+      "exportedPath": "Combinatorics_/Partitions.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Permutations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 10076,
+      "exportedPath": "Combinatorics_/Permutations.html",
+      "dependencies": []
+    },
+    "Combinatorics_/Pigeonhole Principle.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2841,
+      "exportedPath": "Combinatorics_/Pigeonhole Principle.html",
+      "dependencies": []
+    },
+    "Convolutions/Image Processing/Edge Detection.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2098,
+      "exportedPath": "Convolutions/Image Processing/Edge Detection.html",
+      "dependencies": []
+    },
+    "Convolutions/Image Processing/Gaussian Filter.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8161,
+      "exportedPath": "Convolutions/Image Processing/Gaussian Filter.html",
+      "dependencies": []
+    },
+    "Convolutions/Image Processing/Linear Filtering.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1086,
+      "exportedPath": "Convolutions/Image Processing/Linear Filtering.html",
+      "dependencies": []
+    },
+    "Convolutions/Convolution.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3468,
+      "exportedPath": "Convolutions/Convolution.html",
+      "dependencies": []
+    },
+    "Convolutions/Discrete Convolution.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2673,
+      "exportedPath": "Convolutions/Discrete Convolution.html",
+      "dependencies": []
+    },
+    "Convolutions/Properties of Convolutions.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 576,
+      "exportedPath": "Convolutions/Properties of Convolutions.html",
+      "dependencies": []
+    },
+    "Data Structures/Binary Tree.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 356,
+      "exportedPath": "Data Structures/Binary Tree.html",
+      "dependencies": []
+    },
+    "Differential Equations/Applications of first order equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3973,
+      "exportedPath": "Differential Equations/Applications of first order equations.html",
+      "dependencies": []
+    },
+    "Differential Equations/Basic Differential Equation Models.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2308,
+      "exportedPath": "Differential Equations/Basic Differential Equation Models.html",
+      "dependencies": []
+    },
+    "Differential Equations/Boundary Value Problems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1083,
+      "exportedPath": "Differential Equations/Boundary Value Problems.html",
+      "dependencies": []
+    },
+    "Differential Equations/Cauchy-Euler Equation.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6366,
+      "exportedPath": "Differential Equations/Cauchy-Euler Equation.html",
+      "dependencies": []
+    },
+    "Differential Equations/Constant Coefficient Second Order Equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 16931,
+      "exportedPath": "Differential Equations/Constant Coefficient Second Order Equations.html",
+      "dependencies": []
+    },
+    "Differential Equations/Higher Order Equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1779,
+      "exportedPath": "Differential Equations/Higher Order Equations.html",
+      "dependencies": []
+    },
+    "Differential Equations/Laplace Transform.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11212,
+      "exportedPath": "Differential Equations/Laplace Transform.html",
+      "dependencies": []
+    },
+    "Differential Equations/Linear and Separable First Order Equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7419,
+      "exportedPath": "Differential Equations/Linear and Separable First Order Equations.html",
+      "dependencies": []
+    },
+    "Differential Equations/Series.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 12113,
+      "exportedPath": "Differential Equations/Series.html",
+      "dependencies": []
+    },
+    "Differential Equations/Variable Coefficient Second Order Equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3483,
+      "exportedPath": "Differential Equations/Variable Coefficient Second Order Equations.html",
+      "dependencies": []
+    },
+    "Differential Equations/Vertical Mass-Spring Systems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6651,
+      "exportedPath": "Differential Equations/Vertical Mass-Spring Systems.html",
+      "dependencies": []
+    },
+    "Differential Equations/Wronskian and Fundamental Solution Sets.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2779,
+      "exportedPath": "Differential Equations/Wronskian and Fundamental Solution Sets.html",
+      "dependencies": []
+    },
+    "Fourier Analysis/Fourier Series.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6958,
+      "exportedPath": "Fourier Analysis/Fourier Series.html",
+      "dependencies": []
+    },
+    "Fourier Analysis/Fourier Transform.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6233,
+      "exportedPath": "Fourier Analysis/Fourier Transform.html",
+      "dependencies": []
+    },
+    "Fourier Analysis/Periodicity.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7837,
+      "exportedPath": "Fourier Analysis/Periodicity.html",
+      "dependencies": []
+    },
+    "homework/arithmetic_subroutines.rs": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 60,
+      "exportedPath": "homework/arithmetic_subroutines.rs",
+      "dependencies": []
+    },
+    "homework/det.cc": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 126,
+      "exportedPath": "homework/det.cc",
+      "dependencies": []
+    },
+    "homework/dif.py": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 147,
+      "exportedPath": "homework/dif.py",
+      "dependencies": []
+    },
+    "images/34682f0ac52a66cdc5b1789a5ef35506c1ef0458.svg": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11630,
+      "exportedPath": "images/34682f0ac52a66cdc5b1789a5ef35506c1ef0458.svg",
+      "dependencies": []
+    },
+    "images/convolutionbox.gif": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 84640,
+      "exportedPath": "images/convolutionbox.gif",
+      "dependencies": []
+    },
+    "images/convolutioncurve.gif": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 77585,
+      "exportedPath": "images/convolutioncurve.gif",
+      "dependencies": []
+    },
+    "images/curl.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 35215,
+      "exportedPath": "images/curl.png",
+      "dependencies": []
+    },
+    "images/Heatequation_exampleB.gif": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 30720,
+      "exportedPath": "images/Heatequation_exampleB.gif",
+      "dependencies": []
+    },
+    "images/lineintegral.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 46461,
+      "exportedPath": "images/lineintegral.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230304192441.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 18938,
+      "exportedPath": "images/Pasted image 20230304192441.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230304192617.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 12945,
+      "exportedPath": "images/Pasted image 20230304192617.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230304192706.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 12034,
+      "exportedPath": "images/Pasted image 20230304192706.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230304192930.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 13266,
+      "exportedPath": "images/Pasted image 20230304192930.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230304193026.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 35112,
+      "exportedPath": "images/Pasted image 20230304193026.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230305184701.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6602,
+      "exportedPath": "images/Pasted image 20230305184701.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230305184737.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9484,
+      "exportedPath": "images/Pasted image 20230305184737.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230305195243.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7734,
+      "exportedPath": "images/Pasted image 20230305195243.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230307223103.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7627,
+      "exportedPath": "images/Pasted image 20230307223103.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230313170513.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 14289,
+      "exportedPath": "images/Pasted image 20230313170513.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230320185428.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8855,
+      "exportedPath": "images/Pasted image 20230320185428.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230324232826.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 117966,
+      "exportedPath": "images/Pasted image 20230324232826.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230420103807.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 31915,
+      "exportedPath": "images/Pasted image 20230420103807.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230420104827.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 264754,
+      "exportedPath": "images/Pasted image 20230420104827.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230420114715.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 58180,
+      "exportedPath": "images/Pasted image 20230420114715.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230420121204.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 84058,
+      "exportedPath": "images/Pasted image 20230420121204.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230423105941.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 21942,
+      "exportedPath": "images/Pasted image 20230423105941.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230423121322.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 29542,
+      "exportedPath": "images/Pasted image 20230423121322.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230423150641.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 194632,
+      "exportedPath": "images/Pasted image 20230423150641.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230423174833.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 13913,
+      "exportedPath": "images/Pasted image 20230423174833.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230426182243.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 28357,
+      "exportedPath": "images/Pasted image 20230426182243.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230427193633.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 15578,
+      "exportedPath": "images/Pasted image 20230427193633.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230515161153.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 29419,
+      "exportedPath": "images/Pasted image 20230515161153.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230516154011.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 12906,
+      "exportedPath": "images/Pasted image 20230516154011.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230516154340.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9731,
+      "exportedPath": "images/Pasted image 20230516154340.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230519143945.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 40521,
+      "exportedPath": "images/Pasted image 20230519143945.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230520141342.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 87546,
+      "exportedPath": "images/Pasted image 20230520141342.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230520154939.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 181858,
+      "exportedPath": "images/Pasted image 20230520154939.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230520155017.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 897556,
+      "exportedPath": "images/Pasted image 20230520155017.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230520155046.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 315827,
+      "exportedPath": "images/Pasted image 20230520155046.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230520190733.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 45657,
+      "exportedPath": "images/Pasted image 20230520190733.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230520202228.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 20992,
+      "exportedPath": "images/Pasted image 20230520202228.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230521110613.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 42470,
+      "exportedPath": "images/Pasted image 20230521110613.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230521145856.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 108073,
+      "exportedPath": "images/Pasted image 20230521145856.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230531100819.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 64647,
+      "exportedPath": "images/Pasted image 20230531100819.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230531101021.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 61571,
+      "exportedPath": "images/Pasted image 20230531101021.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230707121937.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 33327,
+      "exportedPath": "images/Pasted image 20230707121937.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230721160601.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 14106,
+      "exportedPath": "images/Pasted image 20230721160601.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230721160611.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 14658,
+      "exportedPath": "images/Pasted image 20230721160611.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230722184748.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 15521,
+      "exportedPath": "images/Pasted image 20230722184748.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230722185127.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 12633,
+      "exportedPath": "images/Pasted image 20230722185127.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230723105943.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 30556,
+      "exportedPath": "images/Pasted image 20230723105943.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230723152451.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 26741,
+      "exportedPath": "images/Pasted image 20230723152451.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230723152507.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 26643,
+      "exportedPath": "images/Pasted image 20230723152507.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230727171643.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 56313,
+      "exportedPath": "images/Pasted image 20230727171643.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230727200327.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 23461,
+      "exportedPath": "images/Pasted image 20230727200327.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230727201113.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 34495,
+      "exportedPath": "images/Pasted image 20230727201113.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230727212132.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 31493,
+      "exportedPath": "images/Pasted image 20230727212132.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230727212151.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 31237,
+      "exportedPath": "images/Pasted image 20230727212151.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230731222314.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 29440,
+      "exportedPath": "images/Pasted image 20230731222314.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230804164103.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 17792,
+      "exportedPath": "images/Pasted image 20230804164103.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230805225433.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6338,
+      "exportedPath": "images/Pasted image 20230805225433.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230827193135.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 45426,
+      "exportedPath": "images/Pasted image 20230827193135.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20230919143150.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 151096,
+      "exportedPath": "images/Pasted image 20230919143150.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231008193533.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 16419,
+      "exportedPath": "images/Pasted image 20231008193533.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231026164606.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11846,
+      "exportedPath": "images/Pasted image 20231026164606.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231029201353.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 27516,
+      "exportedPath": "images/Pasted image 20231029201353.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231103210917.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 21881,
+      "exportedPath": "images/Pasted image 20231103210917.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231122164111.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 17569,
+      "exportedPath": "images/Pasted image 20231122164111.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231125124150.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 101149,
+      "exportedPath": "images/Pasted image 20231125124150.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20231228154221.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 60544,
+      "exportedPath": "images/Pasted image 20231228154221.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240118162309.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4188,
+      "exportedPath": "images/Pasted image 20240118162309.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240118165813.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 13790,
+      "exportedPath": "images/Pasted image 20240118165813.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240205195102.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 44286,
+      "exportedPath": "images/Pasted image 20240205195102.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240205200346.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 24749,
+      "exportedPath": "images/Pasted image 20240205200346.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240205215013.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 14879,
+      "exportedPath": "images/Pasted image 20240205215013.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240206113233.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 43579,
+      "exportedPath": "images/Pasted image 20240206113233.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240207141724.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 23306,
+      "exportedPath": "images/Pasted image 20240207141724.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240217142151.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 15296,
+      "exportedPath": "images/Pasted image 20240217142151.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240308155127.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 17093,
+      "exportedPath": "images/Pasted image 20240308155127.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240308170145.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 32124,
+      "exportedPath": "images/Pasted image 20240308170145.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240311154617.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1228,
+      "exportedPath": "images/Pasted image 20240311154617.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240311155135.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1747,
+      "exportedPath": "images/Pasted image 20240311155135.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240315105116.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 16214,
+      "exportedPath": "images/Pasted image 20240315105116.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240316160744.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 22332,
+      "exportedPath": "images/Pasted image 20240316160744.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240316184751.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 192828,
+      "exportedPath": "images/Pasted image 20240316184751.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240318191049.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 374646,
+      "exportedPath": "images/Pasted image 20240318191049.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240323173022.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 26883,
+      "exportedPath": "images/Pasted image 20240323173022.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240327110037.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 50695,
+      "exportedPath": "images/Pasted image 20240327110037.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240330211215.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 51969,
+      "exportedPath": "images/Pasted image 20240330211215.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240401223457.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 19879,
+      "exportedPath": "images/Pasted image 20240401223457.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240402140910.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 145267,
+      "exportedPath": "images/Pasted image 20240402140910.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240406225144.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 53581,
+      "exportedPath": "images/Pasted image 20240406225144.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240407175908.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 35166,
+      "exportedPath": "images/Pasted image 20240407175908.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240416141948.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 36660,
+      "exportedPath": "images/Pasted image 20240416141948.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240420141222.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 43490,
+      "exportedPath": "images/Pasted image 20240420141222.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240424095952.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 118836,
+      "exportedPath": "images/Pasted image 20240424095952.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240426172703.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 75306,
+      "exportedPath": "images/Pasted image 20240426172703.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240428170315.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 10782,
+      "exportedPath": "images/Pasted image 20240428170315.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240430103353.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 106193,
+      "exportedPath": "images/Pasted image 20240430103353.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240508102706.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 25242,
+      "exportedPath": "images/Pasted image 20240508102706.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240508113720.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 24201,
+      "exportedPath": "images/Pasted image 20240508113720.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240511150001.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 99633,
+      "exportedPath": "images/Pasted image 20240511150001.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240514151002.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 91640,
+      "exportedPath": "images/Pasted image 20240514151002.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240514152928.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 147973,
+      "exportedPath": "images/Pasted image 20240514152928.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240514194025.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 58242,
+      "exportedPath": "images/Pasted image 20240514194025.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240515180315.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 24689,
+      "exportedPath": "images/Pasted image 20240515180315.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240515181240.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 30914,
+      "exportedPath": "images/Pasted image 20240515181240.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240516121451.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 35433,
+      "exportedPath": "images/Pasted image 20240516121451.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240516164646.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 57300,
+      "exportedPath": "images/Pasted image 20240516164646.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240522200946.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 15397,
+      "exportedPath": "images/Pasted image 20240522200946.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240530191711.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 22430,
+      "exportedPath": "images/Pasted image 20240530191711.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240531160105.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 65206,
+      "exportedPath": "images/Pasted image 20240531160105.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240531162308.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 111223,
+      "exportedPath": "images/Pasted image 20240531162308.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240531165309.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 73071,
+      "exportedPath": "images/Pasted image 20240531165309.png",
+      "dependencies": []
+    },
+    "images/Pasted image 20240531175110.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 97358,
+      "exportedPath": "images/Pasted image 20240531175110.png",
+      "dependencies": []
+    },
+    "images/svgphp-unit-step-functions-definition-1a-s0.svg": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3355,
+      "exportedPath": "images/svgphp-unit-step-functions-definition-1a-s0.svg",
+      "dependencies": []
+    },
+    "images/tetrahedronthing.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 68145,
+      "exportedPath": "images/tetrahedronthing.png",
+      "dependencies": []
+    },
+    "images/vf1.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 258604,
+      "exportedPath": "images/vf1.png",
+      "dependencies": []
+    },
+    "images/vf2.png": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 29775,
+      "exportedPath": "images/vf2.png",
+      "dependencies": []
+    },
+    "Linear Algebra/Basis and Linear Combinations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1165,
+      "exportedPath": "Linear Algebra/Basis and Linear Combinations.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Change of basis.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4947,
+      "exportedPath": "Linear Algebra/Change of basis.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Cofactors and Minors.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3820,
+      "exportedPath": "Linear Algebra/Cofactors and Minors.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Common Matrix Transformations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4065,
+      "exportedPath": "Linear Algebra/Common Matrix Transformations.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Cramer's Rule.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1778,
+      "exportedPath": "Linear Algebra/Cramer's Rule.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Cross Product.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11401,
+      "exportedPath": "Linear Algebra/Cross Product.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Determinant.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6775,
+      "exportedPath": "Linear Algebra/Determinant.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Diagonalization.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11857,
+      "exportedPath": "Linear Algebra/Diagonalization.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Dot Product.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5986,
+      "exportedPath": "Linear Algebra/Dot Product.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Eigenvalues and Eigenvectors.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5754,
+      "exportedPath": "Linear Algebra/Eigenvalues and Eigenvectors.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Elementary Operations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4371,
+      "exportedPath": "Linear Algebra/Elementary Operations.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Gaussian Elimination.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1462,
+      "exportedPath": "Linear Algebra/Gaussian Elimination.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Geometric Properties of Vectors.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8287,
+      "exportedPath": "Linear Algebra/Geometric Properties of Vectors.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Gram-Schmidt Process.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7907,
+      "exportedPath": "Linear Algebra/Gram-Schmidt Process.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Inner Product.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 13719,
+      "exportedPath": "Linear Algebra/Inner Product.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Inverse Matrices.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11060,
+      "exportedPath": "Linear Algebra/Inverse Matrices.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Jordan Matrix.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1723,
+      "exportedPath": "Linear Algebra/Jordan Matrix.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Linear Independence.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3336,
+      "exportedPath": "Linear Algebra/Linear Independence.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Linear Maps.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11297,
+      "exportedPath": "Linear Algebra/Linear Maps.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Linear Maps Between Dimensions.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 758,
+      "exportedPath": "Linear Algebra/Linear Maps Between Dimensions.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Linear Operator.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 165,
+      "exportedPath": "Linear Algebra/Linear Operator.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Linear Systems of Equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5461,
+      "exportedPath": "Linear Algebra/Linear Systems of Equations.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Matrices.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3974,
+      "exportedPath": "Linear Algebra/Matrices.html",
+      "dependencies": []
+    },
+    "Linear Algebra/More Classifications for Matrices.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5658,
+      "exportedPath": "Linear Algebra/More Classifications for Matrices.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Number Field.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1335,
+      "exportedPath": "Linear Algebra/Number Field.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Rank and Nullity.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5075,
+      "exportedPath": "Linear Algebra/Rank and Nullity.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Row echelon form.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1671,
+      "exportedPath": "Linear Algebra/Row echelon form.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Row, Column, Null Space.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9832,
+      "exportedPath": "Linear Algebra/Row, Column, Null Space.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Sarrus' Rule.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 243,
+      "exportedPath": "Linear Algebra/Sarrus' Rule.html",
+      "dependencies": []
+    },
+    "Linear Algebra/System of Differential Equations.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3937,
+      "exportedPath": "Linear Algebra/System of Differential Equations.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Trace.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1258,
+      "exportedPath": "Linear Algebra/Trace.html",
+      "dependencies": []
+    },
+    "Linear Algebra/Vector Spaces.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 22064,
+      "exportedPath": "Linear Algebra/Vector Spaces.html",
+      "dependencies": []
+    },
+    "Physics/Air Resistance.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 13953,
+      "exportedPath": "Physics/Air Resistance.html",
+      "dependencies": []
+    },
+    "Physics/Center of Mass and Angular Momentum.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 14151,
+      "exportedPath": "Physics/Center of Mass and Angular Momentum.html",
+      "dependencies": []
+    },
+    "Physics/Central Forces.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6011,
+      "exportedPath": "Physics/Central Forces.html",
+      "dependencies": []
+    },
+    "Physics/Chapter 1 Problem Set.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 10230,
+      "exportedPath": "Physics/Chapter 1 Problem Set.html",
+      "dependencies": []
+    },
+    "Physics/Chapter 2 Problem Set.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5255,
+      "exportedPath": "Physics/Chapter 2 Problem Set.html",
+      "dependencies": []
+    },
+    "Physics/Chapter 3 Problem Set.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 17631,
+      "exportedPath": "Physics/Chapter 3 Problem Set.html",
+      "dependencies": []
+    },
+    "Physics/Charged Particles in a Uniform Magnetic Field.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2552,
+      "exportedPath": "Physics/Charged Particles in a Uniform Magnetic Field.html",
+      "dependencies": []
+    },
+    "Physics/Energy for Curvilinear One-Dimensional Systems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2188,
+      "exportedPath": "Physics/Energy for Curvilinear One-Dimensional Systems.html",
+      "dependencies": []
+    },
+    "Physics/Energy for Linear One-Dimensional Systems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 6110,
+      "exportedPath": "Physics/Energy for Linear One-Dimensional Systems.html",
+      "dependencies": []
+    },
+    "Physics/Energy in Multiparticle Systems.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5788,
+      "exportedPath": "Physics/Energy in Multiparticle Systems.html",
+      "dependencies": []
+    },
+    "Physics/Example - Rockets.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2362,
+      "exportedPath": "Physics/Example - Rockets.html",
+      "dependencies": []
+    },
+    "Physics/Friction.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1406,
+      "exportedPath": "Physics/Friction.html",
+      "dependencies": []
+    },
+    "Physics/Kinetic Energy and Work.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2973,
+      "exportedPath": "Physics/Kinetic Energy and Work.html",
+      "dependencies": []
+    },
+    "Physics/Newton's Laws of Motion.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8673,
+      "exportedPath": "Physics/Newton's Laws of Motion.html",
+      "dependencies": []
+    },
+    "Physics/Polar Coordinates.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4997,
+      "exportedPath": "Physics/Polar Coordinates.html",
+      "dependencies": []
+    },
+    "Physics/Potential Energy and Conservation Forces.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9134,
+      "exportedPath": "Physics/Potential Energy and Conservation Forces.html",
+      "dependencies": []
+    },
+    "Physics/Watts, Volts, Amps.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 4018,
+      "exportedPath": "Physics/Watts, Volts, Amps.html",
+      "dependencies": []
+    },
+    "Probability/Basic Measure Theory.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 18616,
+      "exportedPath": "Probability/Basic Measure Theory.html",
+      "dependencies": []
+    },
+    "Probability/Basic Probability.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 8816,
+      "exportedPath": "Probability/Basic Probability.html",
+      "dependencies": []
+    },
+    "Probability/Conditional Probability.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 13423,
+      "exportedPath": "Probability/Conditional Probability.html",
+      "dependencies": []
+    },
+    "Probability/Deceptive Statistics.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5553,
+      "exportedPath": "Probability/Deceptive Statistics.html",
+      "dependencies": []
+    },
+    "Probability/Dices.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1206,
+      "exportedPath": "Probability/Dices.html",
+      "dependencies": []
+    },
+    "Probability/Random Variables.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1893,
+      "exportedPath": "Probability/Random Variables.html",
+      "dependencies": []
+    },
+    "Problem Solving/Analogy.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1597,
+      "exportedPath": "Problem Solving/Analogy.html",
+      "dependencies": []
+    },
+    "Problem Solving/Auxiliary Element.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 786,
+      "exportedPath": "Problem Solving/Auxiliary Element.html",
+      "dependencies": []
+    },
+    "Statistics/Prediction - Linear Models.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1000,
+      "exportedPath": "Statistics/Prediction - Linear Models.html",
+      "dependencies": []
+    },
+    "AN3461.pdf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 676572,
+      "exportedPath": "AN3461.pdf",
+      "dependencies": []
+    },
+    "Basic Geometry.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2907,
+      "exportedPath": "Basic Geometry.html",
+      "dependencies": []
+    },
+    "Cross Product.pdf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 128997,
+      "exportedPath": "Cross Product.pdf",
+      "dependencies": []
+    },
+    "Euler's Formula.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 958,
+      "exportedPath": "Euler's Formula.html",
+      "dependencies": []
+    },
+    "Induction.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 2271,
+      "exportedPath": "Induction.html",
+      "dependencies": []
+    },
+    "Irrationality of the square root of 2.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1292,
+      "exportedPath": "Irrationality of the square root of 2.html",
+      "dependencies": []
+    },
+    "Multiplication by 0.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 358,
+      "exportedPath": "Multiplication by 0.html",
+      "dependencies": []
+    },
+    "Orientation.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1578,
+      "exportedPath": "Orientation.html",
+      "dependencies": []
+    },
+    "Parallelogram and Parallelepipeds.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 188,
+      "exportedPath": "Parallelogram and Parallelepipeds.html",
+      "dependencies": []
+    },
+    "Partial fraction decomposition.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1344,
+      "exportedPath": "Partial fraction decomposition.html",
+      "dependencies": []
+    },
+    "Polar Representation of Complex Numbers.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 614,
+      "exportedPath": "Polar Representation of Complex Numbers.html",
+      "dependencies": []
+    },
+    "Rational Roots Theorem and Synthetic Division.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3113,
+      "exportedPath": "Rational Roots Theorem and Synthetic Division.html",
+      "dependencies": []
+    },
+    "Sets.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1215,
+      "exportedPath": "Sets.html",
+      "dependencies": []
+    },
+    "temp.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 179,
+      "exportedPath": "temp.html",
+      "dependencies": []
+    },
+    "Tetrahedron Volume.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1433,
+      "exportedPath": "Tetrahedron Volume.html",
+      "dependencies": []
+    },
+    "Trigonometric Identities.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 163,
+      "exportedPath": "Trigonometric Identities.html",
+      "dependencies": []
+    },
+    "Types of regions.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 552,
+      "exportedPath": "Types of regions.html",
+      "dependencies": []
+    },
+    "Vector field.md": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 80,
+      "exportedPath": "Vector field.html",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Zero.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1368,
+      "exportedPath": "lib/fonts/MathJax_Zero.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 34160,
+      "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Bold.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 34464,
+      "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Math-Italic.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 19360,
+      "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Main-Italic.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 20832,
+      "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Math-BoldItalic.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 19776,
+      "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size1-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5792,
+      "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size2-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5464,
+      "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size3-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 3244,
+      "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Size4-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 5148,
+      "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_AMS-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 40808,
+      "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Calligraphic-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9600,
+      "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Calligraphic-Bold.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 9908,
+      "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Fraktur-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 21480,
+      "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Fraktur-Bold.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 22340,
+      "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 12660,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Bold.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 15944,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_SansSerif-Italic.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 14628,
+      "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Script-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 11852,
+      "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Typewriter-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 17604,
+      "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Vector-Regular.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1136,
+      "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
+      "dependencies": []
+    },
+    "lib/fonts/MathJax_Vector-Bold.woff": {
+      "modifiedTime": 1717356845968,
+      "sourceSize": 1116,
+      "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
+      "dependencies": []
+    }
+  }
+}
